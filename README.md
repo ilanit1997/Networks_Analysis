@@ -20,4 +20,5 @@ MODEL 2 - Independent cascade model (stochastic)
 
 *PART C - choose_who_to_vaccinate*
 
-we chose using top 50 patients with highest node rank
+The following heuristic for Part C is simply taking the top 50 friendly people; that is, it returns the top
+50 nodes in the graph with the highest degree
